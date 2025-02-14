@@ -5,11 +5,11 @@ model_list:
   - model_name: "*"
     litellm_params:
       model: "*"
- - model_name: "misanthropic/*"
-   litellm_params:
+  - model_name: "misanthropic/*"
+    litellm_params:
       model: "anthropic/*"
- - model_name: "perplexed/*"
-   litellm_params:
+  - model_name: "perplexed/*"
+    litellm_params:
       model: "perplexity/*"
   - model_name: "the-butler"
     litellm_params:
