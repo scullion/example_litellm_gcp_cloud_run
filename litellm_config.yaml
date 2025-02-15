@@ -8,16 +8,13 @@ model_list:
   - model_name: "misanthropic/*"
     litellm_params:
       model: "anthropic/*"
-  - model_name: "perplexed/*"
-    litellm_params:
-      model: "perplexity/*"
-  - model_name: "the-butler"
+  - model_name: "gpt-4o"
     litellm_params:
       model: "anthropic/claude-3-5-sonnet-20241022"
 
 litellm_settings:
-  drop_params: True
-  set_verbose: true
+  drop_params: true
+  set_verbose: false
   success_callback: ["langfuse"]
   failure_callback: ["langfuse"]
 
