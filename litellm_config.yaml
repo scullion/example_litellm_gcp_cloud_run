@@ -8,9 +8,12 @@ model_list:
   - model_name: "misanthropic/*"
     litellm_params:
       model: "anthropic/*"
-  - model_name: "gpt-4o"
+  - model_name: "openai/maude-3.5"
     litellm_params:
       model: "anthropic/claude-3-5-sonnet-20241022"
+  - model_name: "openai/maude-3.7"
+    litellm_params:
+      model: "anthropic/claude-3-7-sonnet-20250219"
 
 litellm_settings:
   drop_params: true
